@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B2BB35-B440-5D4E-3277-24031B5BEB6C" name="T_PEDIDO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:24:47 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_pedido" id="8FBAEF37-CB34-F762-A247-C7DBDCB47D40">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:24:56 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="615D880B-84D4-DA23-DEC0-A627EA223572">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:37:44 UTC</createdTime>
+<generatorID>9B2B0F37-7C3B-6E0D-924C-117108B2B037</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<referedAttribute>DDC5B541-E9CE-557B-5C5C-1EA29F59C01D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7EE60CC-70D2-1B25-CF42-495103ABA8E0" name="T_PEDIDO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:25:09 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FBAEF37-CB34-F762-A247-C7DBDCB47D40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
