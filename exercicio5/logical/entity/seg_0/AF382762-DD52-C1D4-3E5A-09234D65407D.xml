@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF382762-DD52-C1D4-3E5A-09234D65407D" name="T_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:25:41 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_cliente" id="DDC5B541-E9CE-557B-5C5C-1EA29F59C01D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:25:54 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8E23B33-B321-6AFA-E3AE-3174DD424323" name="T_CLIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-04 14:26:00 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDC5B541-E9CE-557B-5C5C-1EA29F59C01D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

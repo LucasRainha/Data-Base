@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9BC1D7C-D58E-B087-FF18-E3AD3E549BF8" name="T_AUTOR_LIVRO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-05 13:41:48 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_autor" id="FFE3EA8B-895C-F390-A87E-956F842C645E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-05 13:50:18 UTC</createdTime>
+<generatorID>984F4A52-B0E6-4D11-3BF1-F09BFDC1D4B6</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<referedAttribute>ACD0D082-F378-899E-0C09-4885C5214197</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B34FC0A6-422A-4F06-7DBE-0783A4FFF12B" name="T_AUTOR_LIVRO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-05 13:48:29 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFE3EA8B-895C-F390-A87E-956F842C645E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

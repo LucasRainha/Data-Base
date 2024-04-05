@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_CONSULTA" directorySegmentName="seg_0" id="C297D84C-33E5-7E16-6B72-402EE8A520DF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-05 13:40:19 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<sourcePk>7492878B-3B72-5EC5-1E12-C2A187B44F5C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>841C1875-773D-C342-E024-D600B42EB34D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3836E325-D8F6-09C0-95E4-19DB257BFAD2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

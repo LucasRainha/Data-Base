@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FUNCIONARIOv2_LOGIN" directorySegmentName="seg_0" id="65E1F05A-EF1C-CF33-772A-96DD7F39030A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-05 13:52:39 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="B7F812BC-F7FD-4F8F-4BD2-21CBDDABF0D0" value="true"/>
+</engineerTo>
+<sourcePk>F2BBA13B-78F4-2748-DA36-C3C931EF8BCB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C40C239D-54B9-2BB6-6404-24A4394E1A9F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>465BA1E3-1F15-7EFB-14F9-4C2AC9C613C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
