@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_EMAIL_PACIENTE" directorySegmentName="seg_0" id="3EADC238-5411-5ADA-DB7E-B82C7BEEB333">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:18:28 UTC</createdTime>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<sourcePk>F8A4D777-4033-4FC5-0A9B-42686593C59F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD82EE61-A310-7F54-A1A2-BEE7C1A593DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>84B6C2A2-7DF1-5C1D-DF45-0EABDC03970C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

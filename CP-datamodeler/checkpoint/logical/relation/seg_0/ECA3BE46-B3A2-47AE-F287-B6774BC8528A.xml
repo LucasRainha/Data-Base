@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_CONTATO_EMERGENCIA" directorySegmentName="seg_0" id="ECA3BE46-B3A2-47AE-F287-B6774BC8528A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:08:15 UTC</createdTime>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<sourcePk>F8A4D777-4033-4FC5-0A9B-42686593C59F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD82EE61-A310-7F54-A1A2-BEE7C1A593DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2EEE87C3-B316-5B10-9A7E-140BE65764C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

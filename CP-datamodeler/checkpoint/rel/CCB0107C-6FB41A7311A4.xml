@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" mainViewID="57B4377E-8070-1215-1D02-EE1C1543E428">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 13:22:04 UTC</createdTime>
+<ownerDesignName>checkpoint</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

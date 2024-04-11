@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84B6C2A2-7DF1-5C1D-DF45-0EABDC03970C" name="STU_EMAIL_PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:16:46 UTC</createdTime>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ed_email" id="E757D414-686C-1B25-9B29-C8BC58156D7A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:17:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[endereço de email]]></commentInRDBMS>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_email" id="EB12B4FE-BDF8-2AAC-7378-78C99F793E02">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:17:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[status email
+]]></commentInRDBMS>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="40D9FB4E-4097-AFAD-76B6-7CB3E521F018">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:18:28 UTC</createdTime>
+<generatorID>3EADC238-5411-5ADA-DB7E-B82C7BEEB333</generatorID>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<referedAttribute>4D730DBA-36D2-D59F-291E-DC03CA7302F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24764F23-3BF9-D630-14EF-087C043D01CA" name="STU_EMAIL_PACIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-11 14:17:35 UTC</createdTime>
+<ownerDesignName>checkpoint</ownerDesignName>
+<engineerTo>
+<item key="CCB0107C-6897-EADB-FB0D-6FB41A7311A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E757D414-686C-1B25-9B29-C8BC58156D7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
